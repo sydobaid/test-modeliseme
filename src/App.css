@@ -1,0 +1,26 @@
+.bgframe {
+  background-image: 
+    /* polka dots */ radial-gradient(
+      #70778533 5%,
+      transparent 0
+    ),
+    linear-gradient(to right, #0d1117, #0d1117); /* your gradient */
+
+  background-size: 50px 50px;
+
+  background-position: 0 0, 15px 15px;
+  /* Without a 3rd set of values, the 3rd gradient
+       will default to the first set of values (0 0) */
+}
+
+.bgbodysection {
+  background: linear-gradient(90deg, #ffffff 0%, #f5f6f7 40.63%, #f5f6f7 100%);
+}
+
+.bgstudio {
+  background-image: url("./assets/Studio.png");
+  background-repeat: no-repeat;
+  /* background-size: 100% 100%; */
+  background-size: cover;
+  background-position: center bottom;
+}
